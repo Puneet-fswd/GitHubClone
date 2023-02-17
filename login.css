@@ -1,0 +1,89 @@
+body
+{
+    background-image: url("loginbg.jpg");
+}
+
+.introline
+{
+    
+    text-align: center;
+    color: white;
+    margin-top: 70px; 
+    font-size: 500%;
+}
+
+#introline
+{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo
+{
+    margin: 5px 0px 5px 5px;
+    height: 40px;
+    width: 40px;  
+}
+
+.description
+{
+    width: 60%;
+    margin-left: 248px;
+    text-align: left;
+}
+
+#description
+{
+    font-size: 40%;
+    color: grey;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input
+{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: none;
+}
+
+#login
+{
+    margin-top: 25px;
+    margin-left: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+button
+{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 50px;
+    width: 120px;
+    margin-left: 110px;
+    background-color: rgb(154, 80, 223);
+    color: white;
+    border: none;
+}
+
+button:hover
+{
+    background: rgb(113, 51, 171);
+}
+
+#submit
+{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 248px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}

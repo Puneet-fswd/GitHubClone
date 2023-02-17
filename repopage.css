@@ -1,0 +1,254 @@
+#input
+{
+    background-color: rgb(41, 41, 49);
+    border: solid 0px black;
+    width: 500px;
+    height: 30px;
+    margin-top: 4.5px;
+}
+
+button
+{
+    background-color: rgb(41, 41, 49);
+    border: solid 0px black;
+    width: 80px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+#logo
+{
+    margin-left: 10px;
+}
+
+li:hover
+{
+    color: grey;
+}
+
+.mainbody
+{
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.subcon-1
+{
+    width: 30%;
+    text-align: left;
+}
+
+.subcon-2
+{
+    width: 70%
+}
+
+.profile
+{
+    border: solid 1.5px white;
+    width: 300px;
+    height: 300px;
+    border-radius: 300%;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+.displayName
+{
+    color: white;
+}
+
+#table
+{
+    color: white;
+}
+
+.headings
+{
+    margin-top: 50px;
+}
+
+.nav-items
+{
+    margin-left: 20px;
+}
+
+.repos
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#repo-1
+{
+    height: 70px;
+    width: 365px;
+    border: solid 1px grey;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(67, 158, 249);
+}
+
+#repo-1:hover
+{
+    color: rgb(151, 193, 234);
+}
+
+#repo-2
+{
+    height: 70px;
+    width: 365px;
+    border: solid 1px grey;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(67, 158, 249);
+}
+
+#repo-2:hover
+{
+    color: rgb(151, 193, 234);
+}
+
+#repo-3
+{
+    height: 70px;
+    width: 365px;
+    border: solid 1px grey;
+    margin-top: 30px;
+    border-radius: 7px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(67, 158, 249);
+}
+
+#repo-3:hover
+{
+    color: rgb(151, 193, 234);
+}
+
+#repo-4
+{
+    height: 70px;
+    width: 365px;
+    border: solid 1px grey;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 7px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(67, 158, 249);
+}
+
+#repo-4:hover
+{
+    color: rgb(151, 193, 234);
+}
+
+.stats
+{
+    margin-top: 40px;
+    height: 150px;
+    width: 783px;
+    border-radius: 7px;
+    border: solid 0.5px grey;
+}
+
+.copyright
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(67, 158, 249);
+}
+
+footer
+{
+    margin-top: 50px;
+    color: white;
+}
+.factors
+{
+    text-decoration: none;
+    color: rgb(67, 158, 249);
+    margin-left: 30px;
+}
+
+.displayName
+{
+    font-weight: 500;
+    padding-top: 120px;
+    font-size: 200%;
+}
+
+.info
+{
+    margin-top:30px;
+}
+
+/* customising scrollbar */
+::-webkit-scrollbar
+{
+    width: 3px;
+}
+
+::-webkit-scrollbar-track
+{
+    background: rgb(38, 37, 37);
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: rgb(67, 158, 249);
+}
+
+/* responsiveness */
+@media screen and (max-width: 600px)
+{
+    .stats
+    {
+        display: none;
+    }
+
+    .mainbody
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subcon-1
+    {
+        align-items: center;
+    }
+
+    table
+    {
+        margin-left: 10%;
+    }
+
+    .profile
+    {
+        margin-left: 60%;
+    }
+
+    .repos
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #repo-2
+    {
+        margin-top: 25px;
+    }
+}
